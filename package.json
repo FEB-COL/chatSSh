@@ -1,0 +1,46 @@
+{
+  "name": "epic-chat",
+  "version": "1.1.0",
+  "description": "A fairly lame tcp chat server",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "^0.10.32"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinisterstuf/epic-chat.git"
+  },
+  "keywords": [
+    "tcp",
+    "chat"
+  ],
+  "author": "Siôn le Roux <sinisterstuf@gmail.com> (http://sinisterstuf.org/)",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/sinisterstuf/epic-chat/issues"
+  },
+  "homepage": "https://github.com/sinisterstuf/epic-chat",
+  "jshintConfig": {
+    "camelcase": true,
+    "eqeqeq": true,
+    "freeze": true,
+    "indent": 2,
+    "newcap": true,
+    "quotmark": "single",
+    "maxdepth": 3,
+    "maxstatements": 15,
+    "maxlen": 80,
+    "eqnull": true,
+    "funcscope": true,
+    "node": true,
+    "asi": true
+  }
+}
